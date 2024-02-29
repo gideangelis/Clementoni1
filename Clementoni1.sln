@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clementoni1", "Clementoni1\Clementoni1.csproj", "{102AD5FE-13B5-4019-A2E6-7041A8E37F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clementoni1WebAPI", "Clementoni1WebAPI\Clementoni1WebAPI.csproj", "{9522A448-124A-4FC5-9EA7-B81408AF5471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102AD5FE-13B5-4019-A2E6-7041A8E37F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102AD5FE-13B5-4019-A2E6-7041A8E37F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102AD5FE-13B5-4019-A2E6-7041A8E37F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102AD5FE-13B5-4019-A2E6-7041A8E37F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9522A448-124A-4FC5-9EA7-B81408AF5471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9522A448-124A-4FC5-9EA7-B81408AF5471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9522A448-124A-4FC5-9EA7-B81408AF5471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9522A448-124A-4FC5-9EA7-B81408AF5471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE79E95B-8144-4AD1-B7E3-B0390D6137FD}
+	EndGlobalSection
+EndGlobal

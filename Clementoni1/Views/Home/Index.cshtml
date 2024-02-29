@@ -1,0 +1,21 @@
+﻿@model PersonaViewModel;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            caricamentoListPersona();
+            caricamentoFormPersona();
+        });
+    </script>
+}
+
+
+<div class="text-center">
+    <div id="divFormPersona"></div>
+    <div id="divListPersona"></div>
+    <div id="divPopupPersona"></div>
+</div>

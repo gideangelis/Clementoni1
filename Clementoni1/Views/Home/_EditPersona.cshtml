@@ -1,0 +1,22 @@
+﻿@model PersonaViewModel;
+
+<form class="mt-5 w-50" asp-controller="Home" asp-action="EditPersona" method="post">
+    <input asp-for="Id" class="form-control" hidden value="@Model.Id" />
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label">Nome:</label>
+        <input asp-for="Nome" class="form-control" value="@Model.Nome"/>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Cognome" class="form-label">Cognome:</label>
+        <input asp-for="Cognome" class="form-control" value="@Model.Cognome" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="NumeroTelefonico" class="form-label">Numero telefonico:</label>
+        <input asp-for="NumeroTelefonico" class="form-control" value="@Model.NumeroTelefonico" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="IdComune" class="form-label">Comune di nascita:</label>
+        <input asp-for="IdComune" class="form-control" value="@Model.IdComune" />
+    </div>
+    <button type="submit" class="btn btn-primary">Invia</button>
+</form>

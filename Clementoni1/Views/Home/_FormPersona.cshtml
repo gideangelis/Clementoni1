@@ -1,0 +1,21 @@
+﻿@model PersonaViewModel;
+
+<form class="mt-5 w-50" asp-controller="Home" asp-action="CreatePersona" method="post">
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label">Nome:</label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Cognome" class="form-label">Cognome:</label>
+        <input asp-for="Cognome" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="NumeroTelefonico" class="form-label">Numero telefonico:</label>
+        <input asp-for="NumeroTelefonico" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="IdComune" class="form-label">Comune di nascita:</label>
+        <input asp-for="IdComune" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Invia</button>
+</form>

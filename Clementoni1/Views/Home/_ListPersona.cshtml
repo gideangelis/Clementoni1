@@ -1,0 +1,35 @@
+﻿@model List<PersonaViewModel>;
+
+
+    <table class="table mt-5">
+        <thead>
+            <tr>
+            <th scope="col">Modifica</th>
+            <th scope="col">Elimina</th>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Cognome</th>
+                <th scope="col">Numero di telefono</th>
+            <th scope="col">Id Comune</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>
+                    <button class="btn btn-light" onclick="modificaPersona(@i.Id)" >🖋️</button>
+                </td>
+                <td>
+                    <a class="btn btn-light" href="/Home/DeletePersona/@i.Id">❌</a>
+                </td>
+                <td>@i.Id</td>
+                <td>@i.Nome</td>
+                <td>@i.Cognome</td>
+                <td>@i.NumeroTelefonico</td>
+                <td>@i.IdComune</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
